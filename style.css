@@ -536,7 +536,69 @@ select:focus {
 }
 
 
+/* ---------CART PAGE--------- */
+
+#cart-page {
+    margin: 80px 0 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th {
+    background-color: #ff523b;
+    padding: 5px 10px;
+    text-align: left;
+}
+
+#cart-page .cart--page__infor {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#cart-page img{
+    height: 80px;
+    width: 80px;
+    padding: 10PX;
+}
+
+.cart--page__inforProduct {
+    padding: 10px 0;
+}
+
+#cart-page input {
+    height: 30px;
+    width: 40px;
+    padding: 5px;
+}
+
+.cart--page__infor a{
+    text-decoration: none;
+    color: #ff523b;
+    font-weight: 800;
+}
 
 
+#total-price {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#total-price table{
+    border-top: 3px solid #ff523b;
+    max-width: 480px;
+
+}
+
+th:last-child,
+td:last-child {
+    text-align: right;
+}
+
+#total-price tr {
+    line-height: 40px;
+}
 
 
