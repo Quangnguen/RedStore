@@ -599,6 +599,77 @@ td:last-child {
 
 #total-price tr {
     line-height: 40px;
+    color: #dfbaba;
+}
+
+/* ---------------ACCOUNT PAGE------------*/
+.account-page {
+    padding: 60px 0;
+    background: linear-gradient(to bottom, rgb(241, 204, 204, .2), #dfbaba);
+}
+
+.account {
+    position: relative;
+    max-width: 300px;
+    background-color: transparent;
+    margin: 0 auto;
+    height: 340px;
+}
+
+.account:hover {
+    background-color: #fff;
+}
+
+
+.account-btn span {
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.account-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 40px;
+}
+
+input{
+    width: 260px;
+    margin: 5px 20px;
+    height: 26px;
+}
+
+form {
+    margin: 40px 0;
+}
+
+.account-login,
+.account-Register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.account-login a{
+    text-decoration: none;
+    margin-top: 20px;
+    color: #000;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #ec6060;
+}
+
+.account-login {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+    top: 40px;
+    left: -300px;
 }
 
 
